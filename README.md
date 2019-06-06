@@ -1,1 +1,3 @@
-# hangman javascript only
+# hangman 
+# Uses Webpack and Babel
+

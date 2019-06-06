@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "hangman",
   "version": "1.0.0",
   "description": "",
   "main": "input.js",
@@ -7,15 +7,22 @@
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Tanima Ranjan",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "live-server": "^1.2.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "live-server": "^1.2.1",
+    "regenerator-runtime": "^0.13.2",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.4.1"
-  }
+    "webpack-dev-server": "^3.4.1",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1"
+  },
+  "devDependencies": {}
 }

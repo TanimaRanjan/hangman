@@ -3,7 +3,8 @@ const path = require('path')
 
 
 module.exports = {
-    entry: './src/index.js', 
+    // entry: './src/index.js', 
+    entry: ['@babel/polyfill', './src/index.js'],
     output: {
         // The path should be absolute path. 
         path: path.resolve(__dirname, 'public/scripts'), 
@@ -18,7 +19,7 @@ module.exports = {
             use: {
                 loader: 'babel-loader', 
                 options: {
-                    presets: ['env']
+                    presets: ["@babel/preset-env"]
                 }
             }
         }]
