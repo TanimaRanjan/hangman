@@ -34,11 +34,13 @@ span {
 p {
     font-weight: 300;
     margin-bottom: .8rem;
+    /* border: red 2px solid; */
 }
 
 .puzzle {
     display: flex;
     margin-bottom: 4.8rem;
+    /* border: red 2px solid; */
 }
 
 .button {
@@ -51,6 +53,7 @@ p {
     font-weight: 300;
     padding: .8rem;
     transition: background .3s ease, color .3s ease;
+    /* border: red 2px solid; */
 }
 
 .button:hover {
